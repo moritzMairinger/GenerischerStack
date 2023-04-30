@@ -40,5 +40,7 @@ public class Test {
         System.out.println(s.list());
 
 
+        var a = GenericUtils.<Integer>umdrehen(new Integer[]{1, 2, 3, 4, 5, 6});
+        System.out.println(java.util.Arrays.toString(a));
     }
 }
